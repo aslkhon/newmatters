@@ -1,0 +1,613 @@
+@font-face {
+  font-family: 'Eastman Trial Offset';
+  src: url("../fonts/EastmanTrial-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'NEXT ART';
+  src: url("../fonts/NEXT ART_Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0px;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Eastman Trial Offset';
+  line-height: 1.8;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  -webkit-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 82.6vw;
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .container {
+    width: 70vw;
+    min-height: 100vh;
+  }
+}
+
+.container .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 769px) {
+  .container .row {
+    margin-bottom: 96px;
+  }
+}
+
+.container .row .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .row .card {
+    min-width: 30vw;
+  }
+}
+
+.container .row .card h3 {
+  font-family: 'NEXT ART';
+  font-weight: 600;
+  margin: 0px 0px;
+}
+
+.container .row :last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .row .card {
+    margin: 0px 0px;
+  }
+  .container .row .left {
+    margin-right: 24px;
+  }
+  .container .row .right {
+    margin-left: 24px;
+  }
+}
+
+.img {
+  height: 300px;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img {
+    height: 150px;
+  }
+}
+
+#josef a div {
+  background-image: url("../images/munisjuraeva.png");
+}
+
+#amina a div {
+  background-image: url("../images/artists/aminakhaitova.png");
+}
+
+.img::after {
+  height: 300px;
+  content: '';
+  width: 100%;
+  display: block;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+  background-blend-mode: screen;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(rgba(0, 0, 0, 0.66)));
+  -webkit-mask-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.66));
+          mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(rgba(0, 0, 0, 0.66)));
+          mask-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.66));
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .img::after {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .img::after {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .img::after {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img::after {
+    height: 150px;
+  }
+}
+
+.img:hover::after {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  opacity: 1;
+}
+
+.intro {
+  margin: 20vh 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    margin: 10vh 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro img {
+    width: 66%;
+  }
+}
+
+.intro p {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro p {
+    font-size: 16px;
+  }
+}
+
+.intro p span {
+  font-family: "NEXT ART";
+}
+
+.intro div .button {
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "NEXT ART";
+  font-weight: bold;
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro div .button {
+    font-size: 16px;
+    margin-top: 1em;
+  }
+}
+
+.intro div :first-child {
+  margin-right: 24px;
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+  padding: 16px 24px;
+}
+
+.intro div :last-child {
+  color: white;
+  border: inset 3px;
+  -o-border-image: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E) 1% 1%;
+     border-image: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E)) 1% 1%;
+     border-image: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E) 1% 1%;
+}
+
+.lines svg:last-child {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+@media only screen and (max-width: 768px) {
+  .lines svg:last-child {
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
+  }
+}
+
+.shift #lineFour {
+  -webkit-transform: translate(1920px, -280px);
+          transform: translate(1920px, -280px);
+}
+
+@media only screen and (max-width: 768px) {
+  .shift #lineFour {
+    -webkit-transform: translate(1920px, -290px);
+            transform: translate(1920px, -290px);
+  }
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading h1 {
+  font-family: 'NEXT ART';
+  font-size: 3em;
+  font-weight: 600;
+  padding: 0px 20px;
+  line-height: 1;
+  margin-bottom: 2em;
+}
+
+.heading h1:after {
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+  display: block;
+  content: "";
+  height: 5px;
+  width: 100%;
+}
+
+.container-wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-wrapper video {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.producers {
+  height: 80vh;
+  width: 100%;
+  background-color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 240px;
+}
+
+.producers * {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media only screen and (min-width: 769px) {
+  .producers #rowOne {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .producers #rowOne #producerOne {
+    background-color: yellow;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+  .producers #rowOne #producerTwo {
+    background-color: #B1F0D5;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .producers #rowTwo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .producers #rowTwo #producerThree {
+    background-color: white;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+  .producers #rowTwo #producerFour {
+    background-color: #7E247E;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+.partners {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.partners .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .partners .row {
+    display: block;
+  }
+}
+
+.partners .row a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.organizers div {
+  width: 100%;
+}
+
+.links {
+  margin-top: 96px;
+}
+
+@media only screen and (min-width: 769px) {
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.links a h2 {
+  font-family: "NEXT ART";
+}
+
+.links a svg {
+  height: 64px;
+}
+
+.sell {
+  min-height: 400px;
+  margin-bottom: 128px;
+}
+
+.sell h2 {
+  font-family: "NEXT ART";
+  text-align: center;
+  font-size: 2em;
+}
+
+.sell p {
+  text-align: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sell p {
+    font-size: 16px;
+  }
+}
+
+.sell p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.2em;
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+  font-family: "NEXT ART";
+}
+
+.sell p:last-child {
+  margin-top: 2em;
+}
+
+.sell span {
+  font-family: 'Arial';
+}
+
+.sell .prices {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sell .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 24px;
+}
+
+.sell .row h3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sell .row div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sell .row::after {
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100%;
+}
+
+.bottomLine {
+  height: 12px;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, right top, from(#B1F0D5), color-stop(#8575D7), to(#7E247E));
+  background: linear-gradient(90deg, #B1F0D5, #8575D7, #7E247E);
+}
+
+footer {
+  font-family: "NEXT ART";
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 72px;
+}
+
+.location .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "NEXT ART";
+}
+
+.location p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.lang {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
