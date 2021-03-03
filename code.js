@@ -1,3 +1,12 @@
+const videoEl = document.querySelector('video');
+
+// attempt to call play() and catch if it fails
+videoEl.play().then(() => {
+  console.log('Autoplay success!');
+}).catch((error) => {
+  console.log('Autoplay error', error);
+});
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from('#lineOne', {

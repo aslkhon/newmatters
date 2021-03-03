@@ -15,6 +15,11 @@ $big_device:'only screen and (min-width: 769px)';
 
 $accent_font: 'NEXT ART';
 
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0px;
   background: black;
@@ -25,12 +30,15 @@ body {
   font-family: 'Eastman Trial Offset';
   line-height: 1.8;
   font-size: 16px;
-  overflow-x: hidden;
 }
 
-iframe {
-  width: 100%;
-  height: 100vh;
+.logoTop {
+  position: absolute;
+  top: 36px;
+  left: 48px;
+  @media #{$small_device} {
+    left: 12px;
+  }
 }
 
 .container {
@@ -108,11 +116,98 @@ iframe {
 
 // Images 
 #josef a div {
-  background-image: url('../images/munisjuraeva.png');
+  background-image: url('../images/artists/josef.jpg');
+}
+
+#daria a div {
+  background-image: url('../images/artists/daria.jpg');
 }
 
 #amina a div {
-  background-image: url('../images/artists/aminakhaitova.png');
+  background-image: url('../images/artists/amina.png');
+}
+
+#valeriya a div {
+  background-image: url('../images/artists/valeriya.jpg');
+}
+
+#jong a div {
+  background-image: url('../images/artists/daria.jpg');
+}
+
+#christine a div {
+  background-image: url('../images/artists/cristine.jpg');
+}
+
+#margarita a div {
+  background-image: url('../images/artists/margarita.jpg');
+}
+
+#mukhtor a div {
+  background-image: url('../images/artists/daria.jpg');
+}
+
+#saida a div {
+  background-image: url('../images/artists/saida.jpg');
+}
+
+#aisha a div {
+  background-image: url('../images/artists/aisha.jpg');
+}
+
+#elisaveta a div {
+  background-image: url('../images/artists/elisaveta.jpg');
+}
+
+#malika a div {
+  background-image: url('../images/artists/malika.jpg');
+}
+
+#mirzaeva a div {
+  background-image: url('../images/artists/mirzaeva.jpg');
+}
+
+#munis a div {
+  background-image: url('../images/artists/munis.jpg');
+}
+
+#olima a div {
+  background-image: url('../images/artists/olima.jpg');
+}
+
+#sarvinoz a div {
+  background-image: url('../images/artists/sarvinoz.jpg');
+}
+
+#safina a div {
+  background-image: url('../images/artists/safina.jpg');
+}
+
+#producerOne {
+  background-image: url('../images/producers/aziza.jpg');
+}
+
+#producerTwo {
+  background-image: url('../images/producers/anastasiya.jpg');
+}
+
+#producerThree {
+  background-image: url('../images/producers/mariya.jpg');
+}
+
+#producerFour {
+  background-image: url('../images/artists/nigina.jpg');
+}
+
+
+#producerOne, #producerTwo, #producerThree, #producerFour {
+  @media #{$small_device} {
+    min-height: 82.6vw;
+  }
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .img::after {
@@ -188,7 +283,7 @@ iframe {
       display: inline-block;
   
       @media #{$small_device} {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 1em;
       }
     }
@@ -256,8 +351,11 @@ iframe {
 }
 
 .producers {
-  height: 80vh;
-  width: 100%;
+  min-height: 49.56vw;
+  width: 49.56vw;
+  @media #{$small_device} {
+    width: 82.6vw;
+  }
   background-color: wheat;
   display: flex;
   flex-direction: column;
@@ -272,12 +370,10 @@ iframe {
       display: flex;
   
       #producerOne {
-        background-color: yellow;
         flex: 2;
       }
   
       #producerTwo {
-        background-color: #B1F0D5;
         flex: 1;
       }
     }
@@ -287,12 +383,10 @@ iframe {
       display: flex;
   
       #producerThree {
-        background-color: white;
         flex: 2;
       }
   
       #producerFour {
-        background-color: #7E247E;
         flex: 1;
       }
     }
@@ -399,6 +493,12 @@ iframe {
     width: 100%;
     display: flex; 
     flex-direction: column;
+
+    .row {
+      h3 {
+        padding-right: 1em;
+      }
+    }
   }
 
   .row {
@@ -452,10 +552,60 @@ footer {
   }
 }
 
-.lang {
+#lang {
   position: fixed;
   top: 48px;
   right: 48px;
   font-size: 20px;
   cursor: pointer;
 }
+
+.zones {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  // margin-bottom: 96px;
+  z-index: 1;
+  @media #{$big_device} {
+    background-image: url('../images/zonesDia.png ');
+  }
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: top 0px;
+  @media #{$small-device} {
+    display: block;
+  }
+
+  .zone-row {
+    flex: 1;
+    display: flex;
+    @media #{$big_device} {
+      background-image: url('../images/zonesHor.svg');
+    }
+    background-repeat: no-repeat;
+    background-position: center;
+    @media #{$small-device} {
+      display: block;
+    }
+    
+    .zone {
+      flex: 1;
+
+      h2 {
+        font-size: 4em;
+        @media #{$small-device} {
+          font-size: 3em;
+        }
+        margin-top: 0;
+        margin-bottom: -0.5em;
+        font-family: $accent_font;
+      }
+    }
+
+    .right {
+      @media #{$big_device} {
+        margin-left: 30%  ;
+      }
+    }
+  }
+} 
