@@ -847,4 +847,9 @@ footer {
     margin-left: 30%;
   }
 }
+
+.none {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
