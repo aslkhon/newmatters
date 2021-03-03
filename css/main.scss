@@ -132,7 +132,7 @@ body {
 }
 
 #jong a div {
-  background-image: url('../images/artists/daria.jpg');
+  background-image: url('../images/artists/jong.jpg');
 }
 
 #christine a div {
@@ -196,7 +196,7 @@ body {
 }
 
 #producerFour {
-  background-image: url('../images/artists/nigina.jpg');
+  background-image: url('../images/producers/nigina.jpg');
 }
 
 
@@ -267,7 +267,7 @@ body {
       font-size: 16px;
     }
 
-    span {
+    .spanFont {
       font-family: $accent_font;
     }
   }
@@ -356,7 +356,6 @@ body {
   @media #{$small_device} {
     width: 82.6vw;
   }
-  background-color: wheat;
   display: flex;
   flex-direction: column;
   * {
@@ -364,16 +363,30 @@ body {
   }
   margin-bottom: 240px;
 
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: $accent_font;
+    padding-left: 24px;
+    font-size: 1vw;
+  }
+
   @media #{$big_device} {
     #rowOne {
       flex: 2;
       display: flex;
   
       #producerOne {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
         flex: 2;
       }
   
       #producerTwo {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
         flex: 1;
       }
     }
@@ -383,10 +396,16 @@ body {
       display: flex;
   
       #producerThree {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
         flex: 2;
       }
   
       #producerFour {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
         flex: 1;
       }
     }
@@ -425,6 +444,11 @@ body {
 .organizers {
   div {
     width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
 
@@ -486,7 +510,7 @@ body {
   }
 
   span {
-    font-family: 'Arial';
+    font-family: 'Century Gothic';
   }
   
   .prices {

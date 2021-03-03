@@ -159,7 +159,7 @@ body {
 }
 
 #jong a div {
-  background-image: url("../images/artists/daria.jpg");
+  background-image: url("../images/artists/jong.jpg");
 }
 
 #christine a div {
@@ -223,7 +223,7 @@ body {
 }
 
 #producerFour {
-  background-image: url("../images/artists/nigina.jpg");
+  background-image: url("../images/producers/nigina.jpg");
 }
 
 #producerOne, #producerTwo, #producerThree, #producerFour {
@@ -325,7 +325,7 @@ body {
   }
 }
 
-.intro p span {
+.intro p .spanFont {
   font-family: "NEXT ART";
 }
 
@@ -435,7 +435,6 @@ body {
 .producers {
   min-height: 49.56vw;
   width: 49.56vw;
-  background-color: wheat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,6 +456,14 @@ body {
   transition: all 0.3s;
 }
 
+.producers a {
+  text-decoration: none;
+  color: white;
+  font-family: "NEXT ART";
+  padding-left: 24px;
+  font-size: 1vw;
+}
+
 @media only screen and (min-width: 769px) {
   .producers #rowOne {
     -webkit-box-flex: 2;
@@ -467,11 +474,31 @@ body {
     display: flex;
   }
   .producers #rowOne #producerOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
   .producers #rowOne #producerTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -485,11 +512,31 @@ body {
     display: flex;
   }
   .producers #rowTwo #producerThree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
   .producers #rowTwo #producerFour {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -550,6 +597,11 @@ body {
 
 .organizers div {
   width: 100%;
+}
+
+.organizers a {
+  text-decoration: none;
+  color: white;
 }
 
 .links {
@@ -624,7 +676,7 @@ body {
 }
 
 .sell span {
-  font-family: 'Arial';
+  font-family: 'Century Gothic';
 }
 
 .sell .prices {

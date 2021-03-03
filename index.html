@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>New Matters</title>
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <script language ="JavaScript" type ="text/javascript" src =" https://static.ticketon.kz/widget/consumer.js "></script>
 </head>
 <body>
   <img src="./images/new_matters_horizontal.png" width="200px" class="logoTop">
@@ -19,11 +21,10 @@
   <div class="container">
     <div class="intro">
       <img src="./images/new_matters.png" alt="new matters logo">
-      <p><span>New Matters</span> is a multidisciplinary experiential performance that will take visitors on a journey of exploring sensations, feelings and emotions. Visual arts, dance, color, sound, smell, and taste – everything will be joint together for the visitor to experience. 
-      Sensitivity, individual perception and neurodiversity are at the heart of the project.</p>
+      <p><span class="spanFont">New Matters </span><span id="introP">.</span></p>
       <div style="display: flex; justify-content: center;">
-        <a class="button">Buy a ticket</a>
-        <a class="button">Conditions</a>
+        <a class="button" id="button"></a>
+        <a class="button" id="conditions"></a>
       </div>
     </div>
   </div>
@@ -53,28 +54,28 @@
   
   <div class="container">
     <div class="heading">
-      <h1>Вас ж<span style="background-color: black; padding: 20px 0px;">д</span>ёт</h1>
+      <h1 id="journey">Вас ж<span style="background-color: black; padding: 20px 0px;">д</span>ёт</h1>
     </div>
     <div class="zones">
       <div class="zone-row">
           <div class="zone">
             <h2>Zone 1</h2>
-            <p>When you enter the first door, you will taste the music, absorb color, light. And you can become a poet for a while.</p>
+            <p id="zone1"></p>
           </div>
           <div class="zone right">
             <h2>Zone 2</h2>
-            <p>When you enter the first door, you will taste the music, absorb color, light. And you can become a poet for a while.</p>
+            <p id="zone2"></p>
           </div>
       </div>
 
       <div class="zone-row">
         <div class="zone">
           <h2>Zone 3</h2>
-          <p>When you enter the first door, you will taste the music, absorb color, light. And you can become a poet for a while.</p>
+          <p id="zone3"></p>
         </div>
         <div class="zone right">
           <h2>Zone 4</h2>
-          <p>When you enter the first door, you will taste the music, absorb color, light. And you can become a poet for a while.</p>
+          <p id="zone4"></p>
         </div>
       </div>
     </div>
@@ -106,13 +107,13 @@
 
   <div class="container">
     <div class="heading">
-      <h1>Artists</h1>
+      <h1 id="artists"></h1>
     </div>
 
-    <h1>Music</h1>
+    <h1 id="music"></h1>
     <div class="row">
       <div class="card left" id="josef">
-        <a href="#"><div class="img"></div></a>
+        <a href="https://www.instagram.com/pinkarthousx/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
@@ -126,10 +127,10 @@
       </div>
     </div>
 
-    <h1>Photo</h1>
+    <h1 id="photo"></h1>
     <div class="row">
       <div class="card left" id="daria">
-        <a href="#"><div class="img"></div></a>
+        <a href="https://www.instagram.com/daria.pavlikova_ph/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
@@ -143,7 +144,7 @@
       </div>
     </div>
 
-    <h1>Dance</h1>
+    <h1 id="dance">Dance</h1>
     <div class="row">
       <div class="card left" id="amina">
         <a href="https://www.instagram.com/khaitova_amina/"><div class="img"></div></a>
@@ -156,29 +157,29 @@
       </div>
 
       <div class="card" id="jong">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card right" id="christine">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/max.demian.frye/"><div class="img"></div></a>
         <h3></h3>
       </div>
     </div>
 
     <div class="row">
       <div class="card left" id="margarita">
-        <a href="https://www.instagram.com/khaitova_amina/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/ri_gretly"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="mukhtor">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="saida">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a><div class="img"></div></a>
         <h3></h3>
       </div>
 
@@ -187,47 +188,47 @@
     </div>
 
 
-    <h1>Fine Art</h1>
+    <h1 id="art">Fine Art</h1>
     <div class="row">
       <div class="card left" id="aisha">
-        <a href="https://www.instagram.com/khaitova_amina/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/aisha_aliwerovna/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="elisaveta">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/summberr/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="malika">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/malikaz_/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card right" id="mirzaeva">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/mayklartkv/"><div class="img"></div></a>
         <h3></h3>
       </div>
     </div>
 
     <div class="row">
       <div class="card left" id="munis">
-        <a href="https://www.instagram.com/khaitova_amina/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/juraevamunis/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="olima">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/olima.khayitova/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card" id="sarvinoz">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a href="https://www.instagram.com/sarvi_noz.artist/"><div class="img"></div></a>
         <h3></h3>
       </div>
 
       <div class="card right" id="safina">
-        <a href="https://www.instagram.com/lllelrlolil/"><div class="img"></div></a>
+        <a><div class="img"></div></a>
         <h3></h3>
       </div>
     </div>
@@ -237,60 +238,64 @@
 
   <div class="container">
     <div class="heading">
-      <h1>Creative producers</h1>
+      <h1 id="creativeProducers"></h1>
       <div class="producers">
         <div id="rowOne">
-          <div id="producerOne">
-          </div>
-          <div id="producerTwo">
-          </div>
+          <a href="https://www.instagram.com/azizapulatova/" id="producerOne">
+            <h2><span id="azizaName"></span><br><span id="aziza"></span></h2>
+          </a>
+          <a href="https://www.instagram.com/angalimova/" id="producerTwo">
+            <h2><span id="anastasiaName"></span><br><span id="anastasia"></span></h2>
+          </a>
         </div>
         <div id="rowTwo">
-          <div id="producerThree">
-          </div>
-          <div id="producerFour">
-          </div>
+          <a href="https://www.instagram.com/whodatberdieva/" id="producerThree">
+            <h2><span id="mariyaName"></span><br><span id="mariya"></span></h2>
+          </a>
+          <a href="https://www.instagram.com/aucoursdemavie/" id="producerFour">
+            <h2><span id="niginaName"></span><br><span id="nigina"></span></h2>
+          </a>
         </div>
       </div>
     </div>
     <div class="container" style="display: flex; flex-direction: column; min-height: 70vh !important; margin-bottom: 128px;">
       <div class="heading">
-        <h1>Partners</h1>
+        <h1 id="partners"></h1>
       </div>
       <div class="partners">
         <div class="row">
-          <a style="background-image: url('./images/partners/britishcouncil.png');"></a>
-          <a style="background-image: url('./images/partners/hendrix.png');"></a>
-          <a style="background-image: url('./images/partners/moc.png');"></a>
-          <a style="background-image: url('./images/partners/ticketon.png');"></a>
+          <a href="https://www.britishcouncil.uz/" style="background-image: url('./images/partners/britishcouncil.png');"></a>
+          <a href="https://www.instagram.com/hendrix.films/" style="background-image: url('./images/partners/hendrix.png');"></a>
+          <a href="https://www.instagram.com/moc__org/" style="background-image: url('./images/partners/moc.png');"></a>
+          <a href="https://ticketon.me/tashkent" style="background-image: url('./images/partners/ticketon.png');"></a>
         </div>
       </div>
 
 
       <div class="heading" style="margin-top: 128px;">
-        <h1>InfoPartners</h1>
+        <h1 id="infoPartners">InfoPartners</h1>
       </div>
       <div class="partners">
         <div class="row">
-          <a style="background-image: url('./images/partners/afisha.png');"></a>
-          <a style="background-image: url('./images/partners/themag.png');"></a>
-          <a style="background-image: url('./images/partners/cafb.png');"></a>
-          <a style="background-image: url('./images/partners/artreview.png');"></a>
+          <a href="https://www.afisha.uz/" style="background-image: url('./images/partners/afisha.png');"></a>
+          <a href="https://themag.uz/" style="background-image: url('./images/partners/themag.png');"></a>
+          <a href="http://cafb.asia/" style="background-image: url('./images/partners/cafb.png');"></a>
+          <a href="https://www.art-review.info/" style="background-image: url('./images/partners/artreview.png');"></a>
         </div>
         <div class="row">
           <a></a>
-          <a style="background-image: url('./images/partners/tbld.png');"></a>
-          <a style="background-image: url('./images/partners/exponaut.png');"></a>
+          <a href="https://tbld.uz/" style="background-image: url('./images/partners/tbld.png');"></a>
+          <a href="https://www.instagram.com/exponautz/?hl=en" style="background-image: url('./images/partners/exponaut.png');"></a>
           <a></a>
         </div>
       </div>
     </div>
 
-    <div class="container organizers">
+    <div class="container organizers" style="min-height: 70vh">
       <div class="heading">
-        <h1>Organizers</h1>
+        <h1 id="organizers"></h1>
         <div class="links" style="margin-top: 0px; margin-bottom: 48px">
-          <a>
+          <a href="https://t.me/new_matters">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.542" height="95.542" viewBox="0 0 95.542 95.542">
               <defs>
                 <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
@@ -303,7 +308,7 @@
             </svg>
             <h2>Telegram</h2>            
           </a>
-          <a>
+          <a href="https://www.instagram.com/_newmatters_/">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.542" height="95.542" viewBox="0 0 95.542 95.542">
               <defs>
                 <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
@@ -324,31 +329,31 @@
     </div>
 
     <div class="container sell">
-      <h2>Ну что, готов к погружению?</h2>
-      <p>Совсем скоро ты сможешь побыть с творчеством наедине. Для этого остается лишь успеть <a href="#">купить билеты</a>.  Просим тебя внимательно подобрать удобное для тебя время и день, чтобы не упустить свой экспириенс.</p>
-      <p style="margin-top: 128px;">ЧЕМ РАНЬШЕ КУПИШЬ БИЛЕТ, ТЕМ ВЫГОДНЕЕ</p>
+      <h2 id="question"></h2>
+      <p><span id="sellOne"></span> <a href="#" id="sellBtn"></a><span id="sellTwo"></span></p>
+      <p style="margin-top: 128px;" id="ticketsHeading"></p>
       <div class="prices">
         <div class="row">
           <h3>Early-bird ticket</h3>
           <div>
-            <h3><span>70 000 сум</span><br>
-              Цена действительна до <span style="font-family: Arial, Helvetica, sans-serif;">7</span> марта включительно
+            <h3><span id="ticketOnePrice"></span><br>
+              <span id="ticketOne"></span>
             </h3>
           </div>
         </div>
         <div class="row">
-          <h3>Regilar ticket</h3>
+          <h3>Regular ticket</h3>
           <div>
-            <h3><span>100 000 сум</span><br>
-              Цена действительна до <span style="font-family: Arial, Helvetica, sans-serif;">14</span> марта включительно
+            <h3><span id="ticketTwoPrice"></span><br>
+              <span id="ticketTwo"></span>
             </h3>
           </div>
         </div>
         <div class="row">
           <h3>Last-chance ticket</h3>
           <div>
-            <h3><span>130 000 сум</span><br>
-              Цена действительна до <span style="font-family: Arial, Helvetica, sans-serif;">17</span> марта включительно
+            <h3><span id="ticketThreePrice"></span><br>
+              <span id="ticketThree"></span>
             </h3>
           </div>
         </div>  
@@ -358,14 +363,12 @@
 
   <div class="container location">
     <div class="heading">
-      <h1>Location</h1>
+      <h1 id="location"></h1>
     </div>
-    <div class="address"><h3>139 Documentary Center</h3><h3>18-23 March</h3></div>
+    <div class="address"><h3>139 Documentary Center</h3><h3 id="date"></h3></div>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A361b9d54872d1edf5a0c13aef92fb9b877757bc1b2c12bc2946bd1bf6a2499c4&amp;width=100%25&amp;height=480&amp;lang=en_FR&amp;scroll=true"></script>
     <p>
-      Просим тебя не опаздывать на свой индивидуальный сеанс арт-погружения. <br>
-И, если будет нужно, немножечко подождать своей очереди.<br>
-Скоро встретимся.
+      <span id="lastOne"></span><br><span id="lastTwo"></span><br><span id="lastThree"></span>
 
     </p>
   </div>
