@@ -24,7 +24,7 @@ function switchLang() {
     document.querySelector('#sarvinoz h3').innerHTML = 'Sarvinoz Kasimova'
     document.querySelector('#safina h3').innerHTML = 'Safina Sharipova'
     document.querySelector('#iroda h3').innerHTML = 'Iroda Nigmatillaeva'
-    document.querySelector('#diyora h3').innerHTML = 'Diyora'
+    document.querySelector('#diyora h3').innerHTML = 'Diyora Pirnazarova'
 
     document.querySelector('#introP').innerHTML = 'is a multidisciplinary experiential performance that will take visitors on a journey of exploring sensations, feelings and emotions. Visual arts, dance, color, sound, smell, and taste – everything will be joint together for the visitor to experience.'
     document.querySelector('#button').innerHTML = 'Buy a ticket'
@@ -101,7 +101,7 @@ function switchLang() {
     document.querySelector('#sarvinoz h3').innerHTML = 'Сарвиноз Касымова'
     document.querySelector('#safina h3').innerHTML = 'Сафина Шарипова'
     document.querySelector('#iroda h3').innerHTML = 'Ирода Нигматиллаева'
-    document.querySelector('#diyora h3').innerHTML = 'Диёра'
+    document.querySelector('#diyora h3').innerHTML = 'Диёра Пирназарова'
 
     document.querySelector('#introP').innerHTML = ' – это мультидисциплинарный экспериментальный перформанс, который отправит тебя в путешествие по исследованию ощущений, чувств и эмоций. Изобразительное искусство, танец, цвет, звук и вкус – все сольется вместе для индивидуального арт-погружения.'
     document.querySelector('#button').innerHTML = 'Купить билеты'
@@ -120,7 +120,7 @@ function switchLang() {
     document.querySelector('#art').innerHTML = 'Изобразительное искусство'
     document.querySelector('#creativeProducers').innerHTML = 'Креативные продюсеры'
 
-    document.querySelector('#partners').innerHTML = 'Парнтнеры'
+    document.querySelector('#partners').innerHTML = 'Партнеры'
     document.querySelector('#infoPartners').innerHTML = 'Инфопартнеры'
     document.querySelector('#organizers').innerHTML = 'Организаторы'
     document.querySelector('#location').innerHTML = 'Локация'
