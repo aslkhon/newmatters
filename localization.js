@@ -93,7 +93,7 @@ function switchLang() {
     document.querySelector('#saida h3').innerHTML = 'Саида Турабекова'
 
     document.querySelector('#aisha h3').innerHTML = 'Аиша Имамтураева'
-    document.querySelector('#elisaveta h3').innerHTML = 'Елизавета  Малинина'
+    document.querySelector('#elisaveta h3').innerHTML = 'Елиcавета  Малинина'
     document.querySelector('#malika h3').innerHTML = 'Малика Зайниддинова'
     document.querySelector('#mirzaeva h3').innerHTML = 'Малика Мирзаева'
     document.querySelector('#munis h3').innerHTML = 'Мунис Джураева'
