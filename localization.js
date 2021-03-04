@@ -53,7 +53,7 @@ function switchLang() {
     document.querySelector('#sellTwo').innerHTML = ', but first, we ask you to choose a time and day convenient for you, and make sure that you are not allergic to food colors and artificial flavorings.'
 
     document.querySelector('#question').innerHTML = 'Are you ready for immersion?'
-    document.querySelector('#date').innerHTML = '18-23 March'
+    document.querySelector('#date').innerHTML = '18-21 March'
 
     document.querySelector('#ticketsHeading').innerHTML = 'THE SOONER YOU BUY A TICKET, THE MORE PROFITABLE IT IS'
     document.querySelector('#ticketOnePrice').innerHTML = '70 000 sum'
@@ -130,7 +130,7 @@ function switchLang() {
     document.querySelector('#sellTwo').innerHTML = ', но прежде просим тебя выбрать удобное для тебя время и день, и убедиться, что у тебя нет аллергии на пищевые красители и искусственные вкусовые добавки.'
 
     document.querySelector('#question').innerHTML = 'Ну что, готов к погружению?'
-    document.querySelector('#date').innerHTML = '18-23 Марта'
+    document.querySelector('#date').innerHTML = '18-21 Марта'
 
     document.querySelector('#ticketsHeading').innerHTML = 'ЧЕМ РАНЬШЕ КУПИШЬ БИЛЕТ, ТЕМ ВЫГОДНЕЕ'
     document.querySelector('#ticketOnePrice').innerHTML = '70 000 сум'
