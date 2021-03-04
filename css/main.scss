@@ -144,7 +144,7 @@ body {
 }
 
 #mukhtor a div {
-  background-image: url('../images/artists/daria.jpg');
+  background-image: url('../images/artists/mukhtor.jpg');
 }
 
 #saida a div {
@@ -181,6 +181,14 @@ body {
 
 #safina a div {
   background-image: url('../images/artists/safina.jpg');
+}
+
+#iroda a div {
+  background-image: url('../images/artists/iroda.jpg');
+}
+
+#diyora a div {
+  background-image: url('../images/artists/diyora.jpg');
 }
 
 #producerOne {
@@ -281,6 +289,7 @@ body {
       font-weight: bold;
       padding: 12px 24px;
       display: inline-block;
+      text-decoration: none;
   
       @media #{$small_device} {
         font-size: 14px;
@@ -369,7 +378,19 @@ body {
     font-family: $accent_font;
     padding-left: 24px;
     font-size: 1vw;
+    // height: 82.6vw;
+
+    @media #{$small_device} {
+      display: flex;
+      align-items: flex-end;
+
+      h2 {
+        font-size: 24px;
+      }
+    }
   }
+
+
 
   @media #{$big_device} {
     #rowOne {

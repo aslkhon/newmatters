@@ -23,6 +23,8 @@ function switchLang() {
     document.querySelector('#olima h3').innerHTML = 'Olima Khayitova'
     document.querySelector('#sarvinoz h3').innerHTML = 'Sarvinoz Kasimova'
     document.querySelector('#safina h3').innerHTML = 'Safina Sharipova'
+    document.querySelector('#iroda h3').innerHTML = 'Iroda Nigmatillaeva'
+    document.querySelector('#diyora h3').innerHTML = 'Diyora'
 
     document.querySelector('#introP').innerHTML = 'is a multidisciplinary experiential performance that will take visitors on a journey of exploring sensations, feelings and emotions. Visual arts, dance, color, sound, smell, and taste – everything will be joint together for the visitor to experience.'
     document.querySelector('#button').innerHTML = 'Buy a ticket'
@@ -55,10 +57,10 @@ function switchLang() {
 
     document.querySelector('#ticketsHeading').innerHTML = 'THE SOONER YOU BUY A TICKET, THE MORE PROFITABLE IT IS'
     document.querySelector('#ticketOnePrice').innerHTML = '70 000 sum'
-    document.querySelector('#ticketOne').innerHTML = 'The price is valid until March 7 inclusive'
+    document.querySelector('#ticketOne').innerHTML = 'The price is valid until March 8 inclusive'
 
     document.querySelector('#ticketTwoPrice').innerHTML = '100 000 sum'
-    document.querySelector('#ticketTwo').innerHTML = 'The price is valid until March 14 inclusive'
+    document.querySelector('#ticketTwo').innerHTML = 'The price is valid until March 15 inclusive'
 
     document.querySelector('#ticketThreePrice').innerHTML = '130 000 sum'
     document.querySelector('#ticketThree').innerHTML = 'The price is valid until March 17 inclusive'
@@ -84,7 +86,7 @@ function switchLang() {
 
     document.querySelector('#amina h3').innerHTML = 'Амина Хаитова'
     document.querySelector('#valeriya h3').innerHTML = 'Валерия Школяренко'
-    document.querySelector('#jong h3').innerHTML = 'Джон Ин'
+    document.querySelector('#jong h3').innerHTML = 'Джонг Ин'
     document.querySelector('#christine h3').innerHTML = 'Кристина Борзова'
     document.querySelector('#margarita h3').innerHTML = 'Маргарита Домахина'
     document.querySelector('#mukhtor h3').innerHTML = 'Мухтор Асроров'
@@ -98,6 +100,8 @@ function switchLang() {
     document.querySelector('#olima h3').innerHTML = 'Олима Хаитова'
     document.querySelector('#sarvinoz h3').innerHTML = 'Сарвиноз Касымова'
     document.querySelector('#safina h3').innerHTML = 'Сафина Шарипова'
+    document.querySelector('#iroda h3').innerHTML = 'Ирода Нигматиллаева'
+    document.querySelector('#diyora h3').innerHTML = 'Диёра'
 
     document.querySelector('#introP').innerHTML = ' – это мультидисциплинарный экспериментальный перформанс, который отправит тебя в путешествие по исследованию ощущений, чувств и эмоций. Изобразительное искусство, танец, цвет, звук и вкус – все сольется вместе для индивидуального арт-погружения.'
     document.querySelector('#button').innerHTML = 'Купить билеты'
@@ -130,10 +134,10 @@ function switchLang() {
 
     document.querySelector('#ticketsHeading').innerHTML = 'ЧЕМ РАНЬШЕ КУПИШЬ БИЛЕТ, ТЕМ ВЫГОДНЕЕ'
     document.querySelector('#ticketOnePrice').innerHTML = '70 000 сум'
-    document.querySelector('#ticketOne').innerHTML = 'Цена действительна до 7 марта включительно'
+    document.querySelector('#ticketOne').innerHTML = 'Цена действительна до 8 марта включительно'
 
     document.querySelector('#ticketTwoPrice').innerHTML = '100 000 сум'
-    document.querySelector('#ticketTwo').innerHTML = 'Цена действительна до 14 марта включительно'
+    document.querySelector('#ticketTwo').innerHTML = 'Цена действительна до 15 марта включительно'
 
     document.querySelector('#ticketThreePrice').innerHTML = '130 000 сум'
     document.querySelector('#ticketThree').innerHTML = 'Цена действительна до 17 марта включительно'

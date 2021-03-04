@@ -32,11 +32,6 @@ body {
   font-size: 16px;
 }
 
-a {
-  text-decoration: none !important;
-  color: white !important;
-}
-
 .logoTop {
   position: absolute;
   top: 36px;
@@ -176,7 +171,7 @@ a {
 }
 
 #mukhtor a div {
-  background-image: url("../images/artists/daria.jpg");
+  background-image: url("../images/artists/mukhtor.jpg");
 }
 
 #saida a div {
@@ -213,6 +208,14 @@ a {
 
 #safina a div {
   background-image: url("../images/artists/safina.jpg");
+}
+
+#iroda a div {
+  background-image: url("../images/artists/iroda.jpg");
+}
+
+#diyora a div {
+  background-image: url("../images/artists/diyora.jpg");
 }
 
 #producerOne {
@@ -342,6 +345,7 @@ a {
   font-weight: bold;
   padding: 12px 24px;
   display: inline-block;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -467,6 +471,20 @@ a {
   font-family: "NEXT ART";
   padding-left: 24px;
   font-size: 1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .producers a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .producers a h2 {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -846,10 +864,5 @@ footer {
   .zones .zone-row .right {
     margin-left: 30%;
   }
-}
-
-.none {
-  color: white;
-  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
