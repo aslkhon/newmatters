@@ -435,10 +435,11 @@ body {
           justify-content: center;
 }
 
-.container-wrapper video {
+.container-wrapper iframe {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  width: 100vw;
 }
 
 .producers {
