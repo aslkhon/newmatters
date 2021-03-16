@@ -60,10 +60,10 @@ function switchLang() {
     document.querySelector('#ticketOne').innerHTML = 'The price is valid until March 8 inclusive'
 
     document.querySelector('#ticketTwoPrice').innerHTML = '100 000 sum'
-    document.querySelector('#ticketTwo').innerHTML = 'The price is valid until March 15 inclusive'
+    document.querySelector('#ticketTwo').innerHTML = 'The price is valid until March 17 inclusive'
 
     document.querySelector('#ticketThreePrice').innerHTML = '130 000 sum'
-    document.querySelector('#ticketThree').innerHTML = 'The price is valid until March 17 inclusive'
+    document.querySelector('#ticketThree').innerHTML = 'The price is valid until March 18 inclusive'
 
     document.querySelector('#lastOne').innerHTML = 'We ask you not to be late for your individual art immersion session.'
     document.querySelector('#lastTwo').innerHTML = 'And, if necessary, please wait a little for your turn.'
@@ -137,10 +137,10 @@ function switchLang() {
     document.querySelector('#ticketOne').innerHTML = 'Цена действительна до 8 марта включительно'
 
     document.querySelector('#ticketTwoPrice').innerHTML = '100 000 сум'
-    document.querySelector('#ticketTwo').innerHTML = 'Цена действительна до 15 марта включительно'
+    document.querySelector('#ticketTwo').innerHTML = 'Цена действительна до 17 марта включительно'
 
     document.querySelector('#ticketThreePrice').innerHTML = '130 000 сум'
-    document.querySelector('#ticketThree').innerHTML = 'Цена действительна до 17 марта включительно'
+    document.querySelector('#ticketThree').innerHTML = 'Цена действительна до 18 марта включительно'
 
     document.querySelector('#lastOne').innerHTML = 'Просим тебя не опаздывать на свой индивидуальный сеанс арт-погружения. '
     document.querySelector('#lastTwo').innerHTML = 'И, если будет нужно, немножечко подождать своей очереди.'
